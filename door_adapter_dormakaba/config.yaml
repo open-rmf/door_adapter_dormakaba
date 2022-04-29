@@ -1,0 +1,8 @@
+# RMF door parameters
+
+door:
+  name: "dormakaba_door1" # Name of the door as defined in rmf_traffic_editor
+  api_endpoint: "" # Get this parameter and others from Dormakaba
+  header_key: ""
+  header_value: ""
+  door_id: ""

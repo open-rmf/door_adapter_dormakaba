@@ -1,0 +1,9 @@
+<?xml version='1.0' ?>
+
+<launch>
+
+  <let name="config_file" value="$(find-pkg-share door_adapter_dormakaba)/config.yaml"/>
+  <!-- Door adapter -->
+  <node pkg="door_adapter_dormakaba" exec="door_adapter_dormakaba" args="-c $(var config_file)"/>
+
+</launch>
